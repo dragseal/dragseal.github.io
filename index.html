@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=414 height=896 style="width: 414px; height: 896px; background: #231F20"></canvas>
-    <script src="Build/WebGLBuild.loader.js"></script>
+    <script src="Build/dragseal.github.io.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WebGLBuild.data",
-        frameworkUrl: "Build/WebGLBuild.framework.js",
-        codeUrl: "Build/WebGLBuild.wasm",
+        dataUrl: "Build/dragseal.github.io.data",
+        frameworkUrl: "Build/dragseal.github.io.framework.js",
+        codeUrl: "Build/dragseal.github.io.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TestHTML5",
